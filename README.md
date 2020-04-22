@@ -4,9 +4,9 @@ Github issue - https://github.com/Azure/azure-sdk-for-js/issues/8437
 Prerequisites
 1. Create 2 servicebus namespaces
 2. Both with 
-  - a queue "queue-name"
-  - a topic "topic-name" 
-  - a subscription for that topic "subscription-name" with auto-forward to "queue-name"
+    - a queue "queue-name"
+    - a topic "topic-name" 
+    - a subscription for that topic "subscription-name" with auto-forward to "queue-name"
 3. Populate the connection-string values in `sample.ts`, update the entity names if you picked different names.
 
 Running the sample
