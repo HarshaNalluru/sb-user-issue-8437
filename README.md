@@ -7,7 +7,7 @@ Prerequisites
     - a queue "queue-name"
     - a topic "topic-name" 
     - a subscription for that topic "subscription-name" with auto-forward to "queue-name"
-3. Populate the connection-string values in `sample.ts`, update the entity names if you picked different names.
+3. Populate the connection-string values in `sample.ts`(from https://github.com/HarshaNalluru/sb-user-issue-8437/pull/1/files), update the entity names if you picked different names.
 
 Running the sample
 1. Install `@azure/service-bus@1.1.5`
