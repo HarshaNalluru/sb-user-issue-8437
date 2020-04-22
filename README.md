@@ -17,3 +17,5 @@ To repro the user-issue
 1. By default, the sample picks up namespace-1 to send messages to the topic
 2. Delete the topic in namespace-1, this would make the code send messages to namespace-2
 3. Both the receivers are active through out the time
+4. Recreate topic in namespace-1 (and the subscription with auto-forwarding)
+5. Delete the topic in namespace-2, this would make the code send messages to namespace-1 again
